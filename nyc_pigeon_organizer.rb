@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
           newData[value] = {}
         end
         if !newData[value].has_key?(attribute)
-          newData[value][]
+          newData[value][attribute] = []
+        end
       
 end
