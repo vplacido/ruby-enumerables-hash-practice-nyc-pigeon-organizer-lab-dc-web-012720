@@ -6,5 +6,7 @@ def nyc_pigeon_organizer(data)
       arr.each do |value|
         if !newData.has_key?(value)
           newData[value] = {}
+        end
+        
       
 end
