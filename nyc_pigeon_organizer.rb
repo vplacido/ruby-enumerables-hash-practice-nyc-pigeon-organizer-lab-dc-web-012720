@@ -4,6 +4,6 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute, hash|
     value.each do |catagory, arr|
       arr.each do |value|
-        
+        if !newData.contains?()
       
 end
