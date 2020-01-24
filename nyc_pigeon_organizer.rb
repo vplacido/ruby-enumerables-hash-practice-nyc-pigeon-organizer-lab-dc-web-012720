@@ -11,6 +11,10 @@ def nyc_pigeon_organizer(data)
           newData[value][attribute] = []
         end
         if !newData[value][attribute].include?(catagory)
-          newData[value][attribute]
-      
+          newData[value][attribute] << catagory.to_s 
+        end
+      end 
+    end 
+  end 
+  newData
 end
